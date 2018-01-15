@@ -3,13 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package learningjava;
+package GettingStarted;
 
 /**
  *
  * @author DarronBrown
  */
-public class LearningJava {
+public class GettingStarted {
 
     /**
      * @param args the command line arguments
