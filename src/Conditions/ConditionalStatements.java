@@ -1,0 +1,33 @@
+package Conditions;
+
+public class ConditionalStatements {
+	public static void main( String[] args ) {
+		/*
+            CONDITIONAL STATEMENTS
+            
+            true false
+            if (EXPRESSION)
+                instrucion;
+        */
+        
+        int a = 8,
+            b = 7,
+            c = 5;
+        
+        if (a < b || c > 6) {
+
+            System.out.println("a < b || c > 6");
+
+        }
+        else if (a > b) { 
+
+            System.out.println("a > b");
+
+        }
+        else {
+
+            System.out.println("something else happend");
+
+        }
+	}
+}
