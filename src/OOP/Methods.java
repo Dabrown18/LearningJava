@@ -9,7 +9,7 @@ package OOP;
  *
  * @author DarronBrown
  */
-public class ObjectOrientedProgramming {
+public class Methods {
     public static void main(String[] args) {
         /*
             Objects - containers that stores variables and functions thematically 
@@ -19,18 +19,25 @@ public class ObjectOrientedProgramming {
             Properties - features (part of something)
             Methods - functions 
         */
+        System.out.println("");
         
+        Test test1 = new Test();
         
-        Point p = new Point();
+        test1.printSomething("Darron", "Brown");
         
+        int result = test1.add(4, 5);
+        System.out.println(result);
     }
 }
 
-class Point {
-    Point() {
-        System.out.println("This the default constructor.");
+class Test {
+    
+    void printSomething( String firstname, String lastname ) {
+        System.out.println(firstname + " " + lastname + " is the greatest!");
     }
     
-    int x;
-    int y;
+    int add (int a, int b) {
+        return a + b;
+    }
+    
 }
