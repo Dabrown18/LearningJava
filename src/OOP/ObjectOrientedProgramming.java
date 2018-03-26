@@ -26,6 +26,8 @@ public class ObjectOrientedProgramming {
         
         monitor1.getWidth();
         
+        Point p = new Point();
+        
     }
 }
 
@@ -47,4 +49,11 @@ class Monitor {
     }
 }
 
-
+class Point {
+    Point() {
+        System.out.println("This the default constructor.");
+    }
+    
+    int x;
+    int y;
+}
